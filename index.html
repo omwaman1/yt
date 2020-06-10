@@ -3,11 +3,13 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       var viewMode = getCookie("view-mode");
+	<?php
 if(viewMode == "desktop"){
     viewport.setAttribute('content', 'width=1024');
 }else if (viewMode == "mobile"){
     viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
 }
+?>
       <meta name="description" content="Askbootstrap">
       <meta name="author" content="Askbootstrap">
       <title>VIDOE - Video Streaming Website HTML Template</title>
